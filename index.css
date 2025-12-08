@@ -1,0 +1,16 @@
+.divcabecalho{
+    color:  blue;
+    border: 1px solid ;
+   
+    width: 1000px;
+    
+    
+}
+
+a{
+    border: 1px solid red;
+    display: flex;
+    width: 200px;
+
+
+}
