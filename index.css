@@ -24,12 +24,42 @@ ul{
     display: flex;
     justify-content: space-evenly;
     width: 50%;
-    
         
 }
 
 a{
     color: blue;
-    
+ 
+}
 
+main{
+   
+}
+
+.divcorpomae{
+    display: flex;
+}
+
+.sejadoador{
+    color: red;
+    text-align: center;
+    width: 100%;
+}
+
+.sejaumparceiro{
+    color: red;
+    text-align: center;
+    width: 100%;
+}
+
+.pedido{
+    color: red;
+    text-align: center;
+    width: 100%;
+}
+
+.divcorpo{
+    border: 1px solid red;
+    height: 200px;
+    width: 100%;
 }
