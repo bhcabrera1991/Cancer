@@ -34,5 +34,11 @@ a{
 
 main{
     display: flex;
+    justify-content: space-around;
+}
+
+.divformulario{
+    text-align: justify;
+    
 }
 
