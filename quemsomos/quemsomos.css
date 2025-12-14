@@ -1,0 +1,61 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    display: flex;
+}
+
+
+.divcabecalho{
+    color:  blue;
+    
+    background-color: #f8dce3;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+        
+}
+
+ul{
+    border: 1px solid red;
+    display: flex;
+    justify-content: space-evenly;
+    width: 50%;
+        
+}
+
+a{
+    color: blue;
+ 
+}
+
+.divcorpomae{
+    display: flex;
+}
+
+.sejadoador{
+    color: red;
+    text-align: center;
+    width: 100%;
+}
+
+.sejaumparceiro{
+    color: red;
+    text-align: center;
+    width: 100%;
+}
+
+.pedido{    
+    text-align: center;
+    width: 100%;
+    
+}
+
+.divcorpo{
+    border: 1px solid red;
+    height: 200px;
+    width: 100%;
+}
