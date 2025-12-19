@@ -3,18 +3,14 @@
     padding: 0;
 }
 
-
 header{
     display: flex;
-   
-    
     
 }
 
 .a{
     text-decoration: none;
     color: black;
-
     
 }
 
@@ -93,10 +89,13 @@ ul{
 .pedido{
     text-align: center;
     justify-self: center;
-    align-content: center;
+    align-content: center;   
+    
+}
 
-    
-    
+.pedido1{
+    box-shadow: 5px 5px 10px rgba(0,0,0,0.5);
+
 }
 
 .divcorpo{
