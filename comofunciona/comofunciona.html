@@ -6,13 +6,22 @@
     <title>index</title>
     <link rel="stylesheet" href="comofunciona.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=League+Gothic&display=swap" rel="stylesheet">  
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Castoro+Titling&display=swap" rel="stylesheet">
+    
 </head>
 <body>
     <header>
         <div>
             <img src="logo1.png" height="100" alt="">
         </div>
-
         <nav class="divcabecalho">
             <a class="a" href="/index.html">Pagina Inicial</a>                
             <a class="a" href="/doe/doe.html">Doe seu cabelo &#9825</a>
@@ -20,12 +29,10 @@
             <a class="a" href="/solicitante/solicitante.html">Precisando de cabelo ?</a>
             <a class="a" href="/parceiro/parceiro.html">Seja nosso parceiro/a</a>
          </nav>
-
     </header>
-
-    <main>
+    <main class="corpo">
         <div class="divcorpomae">
-            <section class="sejadoador - text-uppercase">
+            <section class="sejadoador text-uppercase">
                 <h1>
                     <a class="a" href="/doe/doe.html"> Seja uma doadora ou doador.</a>
                 </h1>
@@ -35,7 +42,6 @@
                  </mark>
                 </strong>
             </section>
-
             <section class="sejaumparceiro - text-uppercase">
                 <h1>
                     <a class="a" href="/parceiro/parceiro.html">Seja um Parceiro  ou Parceira</a>
@@ -45,65 +51,43 @@
                         Cabeleireiros e fabricantes de perucas: juntos, podemos transformar solidariedade em sorrisos.
                     </mark>
                 </strong>
-               
-                
-
             </section>
-
-
             <section class="pedido - text-uppercase">
                 <h1 >
                     <a class="a" href="/solicitante/solicitante.html">Faça seu pedido</a>
                  </h1>
-
-               
-
             </section>
         </div>
-    </main>      
-       
-    <div class="container ">
-        <article class="col-12 divcorpo text-center">
+        <div class="d-flex">
+            
+                <article class="divcorpo  w-25" >
+                    <h2 class="text-uppercase w-100 divcorpo"> 1ª-Cadastro e Doação</h2>
+                    <p class="p_texto">O solicitante realiza o cadastro no sistema.
+                    <br>Existe dois(2) campos que são de extrema importancia que sao: <br> <a class="p_texto2" href="/solicitante/solicitante.html">"Entidade de acompanhamento do tratamento"</a> <br> <a class="p_texto2" href="/solicitante/solicitante.html">"Médico responsável"</p></a>
+                </article>
+                <article class="divcorpo  w-25">
+                        <h2 class="text-uppercase w-100 divcorpo"> 2ª-Escolha da Modalidade </h2>
+                        <p class="p_texto">O solicitante define como será feita a  confecção da peruca: <br> <p class="p_texto3">Confecção particular.O solicitante consegue a doação do cabelo.Assume os custos de produção da peruca.</p>
+                        <br> <p class="p_texto4"> Doação completa:
+                        Todo o processo (cabelo + produção) é custeado pela iniciativa de doação.</p>
+                </article>
+                <article class="divcorpo  w-25">
+                    <h2 class="text-uppercase w-100 divcorpo"> 3ª-Fluxo de Aprovação </h2>
+                    <p class="p_texto">Cadastro enviado pelo solicitante. <br> Validação e aprovação dos campos obrigatórios.</p>
+                </article>
+                <article class="divcorpo w-25 ">
+                    <h2 class="text-uppercase w-100 divcorpo"> 4ª-Conclusão</h2>
+                    <p class="p_texto">Após aprovação, o solicitante está apto a participar do processo de doação. <br>O sistema gera um registro final com dados do solicitante. <br> Essa inforção ficara disponivel para acompanhamento. <br>Observação: As informações que serão disponivel serão para acaompanhar o processo, qualquer informação mais "pessoal" só será disponivel com autorização do proprio      </p>
+                </article>
+            
+            
+        </div>
 
-            <h4> 1ª-Processo de Cadastro e Doação de Peruca</h4>
-             <p>Cadastro Inicial. O solicitante realiza o     cadastro no sistema.Existe dois campos que são de extrema importancia que sao:
-             Entidade de acompanhamento do tratamento → precisa de aprovação.
-             Médico responsável → precisa de aprovação.</p>
-        </article>
-        <article class="col-6 divcorpo text-center">
-            <h4 class="text-uppercase"> 2ª-Escolha da Modalidade </h4>
-            <p>O solicitante define como será feita a  confecção da peruca:
-            Confecção particular.
-            O solicitante consegue a doação do cabelo.
-            Assume os custos de produção da peruca.
-            Doação completa
-            Todo o processo (cabelo + produção) é custeado pela iniciativa de doação.</p>
-        </article>
         <article class="col-12 divcorpo text-center">
-            <h4 class="text-uppercase"> 3ª-Fluxo de Aprovação </h4>
-            <p>Cadastro enviado pelo solicitante.
-             Revisão e aprovação dos campos obrigatórios:
-             Entidade de acompanhamento.
-             Médico responsável.
-             Validação das informações opcionais (quando fornecidas).
-             Confirmação da modalidade escolhida (particular ou doação completa).</p>
+            <h2>Informações Opcionais</h2>
+            <p class="p_texto">O solicitante pode indicar:Cabeleireiro amigo (profissional de confiança para corte).Empresa produtora da peruca.</p>
         </article>
-        <article class="col-6 divcorpo text-center">
-            <h4 class="text-uppercase"> 4ª-Conclusão</h4>
-            <p>Após aprovação, o solicitante está apto a participar do processo de confecção da peruca.
-            O sistema gera um registro final com:
-            Dados do solicitante.
-            Entidade e médico aprovados.
-            Informações opcionais (cabeleireiro e empresa).
-            Modalidade escolhida.</p>
-        </article>
-        <article class="col-12 divcorpo text-center">
-            <h4>Informações Opcionais</h4>
-            <p>O solicitante pode indicar:Cabeleireiro amigo (profissional de confiança para corte).
-            Empresa produtora da peruca.</p>
-        </article>
-
-    </div>
+    </main>
         
         
 
