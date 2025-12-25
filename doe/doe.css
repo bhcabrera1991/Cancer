@@ -1,44 +1,31 @@
-*{
-    margin: 0;
-    padding: 0;
+.fonte1{
+ font-family: "Metamorphous", serif;
+  font-weight: 700;
+  font-style: normal;
+  color: pink;
+  background-color: blue;
+  border-radius: 15px;
 }
 
-header{
-    display: flex;
+.fonte2{
+  font-family: "Winky Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 900;
+  font-style: normal;
+  color: blue;
 }
 
-
-.divcabecalho{
-    color:  blue;
-    
-    background-color: #f8dce3;
-    width: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
-        
+.ajuste{
+    justify-content: center;
 }
 
-ul{
-    border: 1px solid red;
-    display: flex;
-    justify-content: space-evenly;
-    width: 50%;
-        
+.a{
+  text-decoration: none;
+  color: black;
+  font-family: "Metamorphous", serif;
+  font-weight: 700;
+  font-style: normal;
+  
 }
 
-a{
-    color: blue;
- 
-}
-
-main{
-    display: flex;
-    justify-content: space-around;
-}
-
-.divformulario{
-    text-align: justify;
-    
-}
 

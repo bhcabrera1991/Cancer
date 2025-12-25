@@ -5,97 +5,80 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>doecabelo</title>
     <link rel="stylesheet" href="doe.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+
+   <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bodoni+Moda:ital,opsz,wght@0,6..96,400..900;1,6..96,400..900&family=Metamorphous&family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Orbitron:wght@400..900&family=Sour+Gummy:ital,wght@0,100..900;1,100..900&family=Winky+Sans:ital,wght@0,300..900;1,300..900&display=swap" rel="stylesheet">
+
 </head>
-<body>
-    <header>
+<body class="bg-danger-subtle"">
+    <header class="d-flex bg-danger-subtle">
         <div>
             <img src="logo1.png" height="100" alt="">
         </div>
-
-        <nav class="divcabecalho">
-            <ul>
-                <li>
-                    <a href="/index.html">Pagina Inicial</a>                
-                </li>
-                
-                <li>
-                <a href="/comofunciona/comofunciona.html">Como funciona ?</a>
-                </li>
-                                
-                <li>
-                    <a href="/quemsomos/quemsomos.html">Qem somos ?</a>
-                </li>
-                
-                <li>
-                <a href="/solicitante/solicitante.html">Precisando de cabelo ?</a>
-                </li>
-
-                <li>
-                <a href="/parceiro/parceiro.html">Seja nosso parceiro/a</a>
-                </li>
-
-
-            </ul>
-        </nav>
+     <nav class="navbar container">
+        <a class="a" href="/index.html">Pagina Inicial
+        </a>                
+        <a class="a" href="/comofunciona/comofunciona.html">Como funciona ?</a>
+        <a class="a" href="/quemsomos/quemsomos.html">Quem somos ?</a>
+        <a class="a" href="/solicitante/solicitante.html">Precisando de cabelo ?</a>
+        <a class="a" href="/parceiro/parceiro.html">Seja nosso parceiro/a</a>
+           
+        </ul>
+      </nav>
 
     </header>
 
-    <main>
-        <div class="divformulario">
-            <form action=""> <h1> Doação</h1>
-                <br>
-                <label for="nome">Nome completo</label>
-                <input type="text" id="nome" name="nome">
-                <br>
-                <label for="data_nascimento">Data nascimento</label>
+    <main class="d-flex">
+        
+            <form class="col-4 card" action="">
+                <div class="d-flex ajuste">
+                    <h1 class="text-center fonte1">Doação</h1>
+                    <br><br>
+                </div>
+                <label class="fonte2" for="nome">Nome completo</label>
+                <input type="text" id="nome" name="nome" required>
+                <label class="fonte2" for="data_nascimento">Data nascimento</label>
                 <input type="date" id="data_nascimento" name="data_nascimento">
-                <br>
-                <label for="contato">Telefone</label>
+                <label class="fonte2" for="contato">Telefone</label>
                 <input type="tel" id="contato" name="contato">
-                <br>
-                <button type="submit">Enviar</button>
-
+                <label class="fonte2" for="data_corte">Data corte</label>
+                <input type="date" id="data_corte" name="data_corte" required >
+                <label class="fonte2" for="datacoleta">Data do envio para o ponto de coleta</label>
+                <input type="date" id="datacoleta" name="datacoleta">
+                <label class="fonte2" for="dataenvio">Data do envio</label>
+                <input type="date" id="dataenvio" name="dataenvio" required >
+                <button class="btn btn-outline-danger"  ctype="submit">Enviar</button>
             </form>
-        </div>
-    
-
-
-        <div class="divformulario">
-             <form action=""> <h1>Doação especial</h1>
-                <br>
-                <label for="nome">Nome completo</label>
-                <input type="text" id="nome" name="nome">
-                <br>
-                <label for="codigo">Codigo</label>
-                <input type="number" id="codigo" name="codigo">
-                <br>
-                <br>
-                <button type="submit">Enviar</button>
-
+            <form class="col-4 card " action="">
+                <div class="<div class="borda d-flex ajuste">
+                    <h1 class="text-center fonte1">Doação especial</h1>
+                </div>
+             <label class="fonte2" for="nome1">Nome completo</label>
+             <input type="text" id="nome1" name="nome1">
+             <label class="fonte2" for="codigo">Codigo</label>
+             <input type="number" id="codigo" name="codigo">
+             <br ><br><br><br><br><br><br><br>
+             <button class="p-1 m-3 btn btn-outline-primary" type="submit">Enviar</button>
             </form>
-            
-        </div>
-
-         <div class="divformulario">
-             <form action=""> <h1>Cabeleleiro responsavel</h1>
-                <br>
-                <label for="nome">Nome completo</label>
-                <input type="text" id="nome" name="nome">
-                <br>
-                <label for="salao">Salao</label>
+            <form class="col-4 card" action="">
+                <div class="d-flex ajuste">
+                    <h1 class="text-center fonte1">Cabeleleiro Responsavel</h1>
+                </div>
+                <label class="fonte2" for="nome2">Nome completo</label>
+                <input type="text" id="nome2" name="nome2">
+                <label class="fonte2" for="salao">Salao</label>
                 <input type="text" id="salao" name="salao">
-                <br>
-                <label for="endereco">Endereco Salao</label>
+                <label class="fonte2" for="endereco">Endereco Salao</label>
                 <input type="text" id="endereco" name="endereco">
-                <br>
-                <label for="contato">Telefone</label>
-                <input type="tel" id="contato" name="contato">
-                <br>
-                <button type="submit">Enviar</button>
-
+                <label class="fonte2" for="contato1">Telefone</label>
+                <input type="tel" id="contato1" name="contato1">
+                <br><br>
+                <button class="btn btn-outline-success" type="submit">Enviar</button>
             </form>
             
-        </div>
+        
 
     </main>
     
