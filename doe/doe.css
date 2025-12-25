@@ -24,8 +24,11 @@
   color: black;
   font-family: "Metamorphous", serif;
   font-weight: 700;
-  font-style: normal;
-  
+  font-style: normal;  
 }
 
+.a:hover{
+  background-color: chartreuse;
+  
+}
 
