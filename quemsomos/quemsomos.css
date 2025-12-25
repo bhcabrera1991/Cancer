@@ -1,61 +1,38 @@
-*{
-    margin: 0;
-    padding: 0;
-}
-
-header{
-    display: flex;
-}
-
-
 .divcabecalho{
-    color:  blue;
-    
+    color:  blue;    
     background-color: #f8dce3;
-    width: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
-        
+
 }
 
-ul{
-    border: 1px solid red;
-    display: flex;
-    justify-content: space-evenly;
-    width: 50%;
-        
+.borda{
+    border: 1px solid orange;
 }
 
-a{
-    color: blue;
- 
+.fonte1{
+  font-family: "BBH Bogle", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+  font-size: 20px;
 }
 
-.divcorpomae{
-    display: flex;
+.fonte1h{
+  font-family: "BBH Bogle", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+  
 }
 
-.sejadoador{
-    color: red;
-    text-align: center;
-    width: 100%;
+.fonte2{
+  font-family: "Story Script", sans-serif;
+  font-weight: 400;
+  font-style: normal;
 }
 
-.sejaumparceiro{
-    color: red;
-    text-align: center;
-    width: 100%;
+
+.fonte3{
+  font-family: "Cinzel Decorative", serif;
+  font-weight: 700;
+  font-style: normal;
+  text-align: justify;
 }
 
-.pedido{    
-    text-align: center;
-    width: 100%;
-    
-}
-
-.divcorpo{
-    border: 1px solid red;
-    height: 200px;
-    width: 100%;
-}
