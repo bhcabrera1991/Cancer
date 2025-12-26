@@ -5,85 +5,68 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>solicitante</title>
     <link rel="stylesheet" href="solicitante.css">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+
+
+
+       <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bodoni+Moda:ital,opsz,wght@0,6..96,400..900;1,6..96,400..900&family=Metamorphous&family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Orbitron:wght@400..900&family=Sour+Gummy:ital,wght@0,100..900;1,100..900&family=Winky+Sans:ital,wght@0,300..900;1,300..900&display=swap" rel="stylesheet">
+
 </head>
 <body>
-    <header>
+    <header class="d-flex borda" >
         <div>
             <img src="logo1.png" height="100" alt="">
         </div>
 
-        <nav class="divcabecalho">
-            <ul>
-                <li>
-                    <a href="/index.html">Pagina Inicial</a>                
-                </li>
-                <li>
-                    <a href="/comofunciona/comofunciona.html">Como funciona ?</a>                
-                </li>
-                
-                <li>
-                <a href="/doe/doe.html">Doe seu cabelo &#9825</a>
-                </li>
-                                
-                <li>
-                    <a href="/quemsomos/quemsomos.html">Qem somos ?</a>
-                </li>
-                
-                
-                <li>
-                <a href="/parceiro/parceiro.html">Seja nosso parceiro/a</a>
-                </li>
-
-
-            </ul>
+        <nav class=" text-uppercase justify-content-around navbar container-fluid  borda fonte2">
+            <a href="/index.html">Pagina Inicial</a>                
+            <a href="/comofunciona/comofunciona.html">Como funciona ?</a>                
+            <a href="/doe/doe.html">Doe seu cabelo &#9825</a>
+            <a href="/quemsomos/quemsomos.html">Qem somos ?</a>
+            <a href="/parceiro/parceiro.html">Seja nosso parceiro/a</a>
         </nav>
 
     </header>
 
-    <main>
-        <div class="divformulario">
-            <form action=""> <h1>Solicitação de doação</h1>
+    <main class="d-flex borda   ">
+        
+            <form class="card col-4 p-1 a" action="">
+                <p  class="text-center titulo fonte2">SOLICITAÇÃO DE DOAÇÃO</p>
                 <br>
                 <label for="nome">Nome completo</label>
-                <input type="text" id="nome" name="nome">
-                <br>
+                <input type="text" id="nome" name="nome" required>
                 <label for="idade">Idade</label>
-                <input type="number" id="idade" name="idade">
-                <br>
+                <input type="number" id="idade" name="idade" required>
                 <label for="data_nascimento">Data nascimento</label>
-                <input type="date" id="data_nascimento" name="data_nascimento">
-                <br>
+                <input type="date" id="data_nascimento" name="data_nascimento"required>
                 <label for="cidade_nascimento">Cidade de nascimento</label>
-                <input type="text" id="cidade_nascimento" name="cidade_nascimento">
-                <br>
+                <input type="text" id="cidade_nascimento" name="cidade_nascimento" required>
                 <label for="estado">Estado Nascimento</label>
-                <select name="estado" id="estado">
+                <select name="estado" id="estado" required>
                     <option value="SP">SP</option>
                     <option value="RJ">RJ</option>
                 </select>
-                <br>
                 <label for="cpf">CPF</label>
-                <input type="number" id="cpf" name="cpf">
-                <br>
+                <input type="number" id="cpf" name="cpf" required>
                 <p>Estado civil: 
-                    <input type="radio" name="estadocivil" id="casado">
+                    <input type="radio" name="estadocivil" id="casado" required>
                     <label for="casado">casado</label>
                     <input type="radio" name="estadocivil" id="solteiro">
                     <label for="solteiro">solteiro</label> 
                 </p>
-                <br>
                 <label for="filhos">Tem filhos</label>
-                <select name="filhos" id="filhos">
+                <select name="filhos" id="filhos" required>
                     <option value=""></option>
                     <option value="Sim">Sim</option>
                     <option value="Nao">Nao</option>                
                 </select>
-                <br>
-                <label for="quantos">Quantos tinhos</label>
-                <input type="number" id="quantos" name="quantos">
-                <br>
+                <label for="quantos">Quantos finhos</label>
+                <input type="number" id="quantos" name="quantos" required>
                 <label for="contato">Telefone</label>
-                <input type="tel" id="contato" name="contato">
+                <input type="tel" id="contato" name="contato" required>
                 <br>
                 <button type="submit">Enviar</button>
 
@@ -92,47 +75,27 @@
     
 
 
-        <div class="divformulario">
-             <form action=""> <h1>Cadastro da ONG</h1>
+        
+             <form class="card col-4 p-1 a " action="">
+                <p class="text-center  titulo fonte2">ONG DE APOIO</p>
                 <br>
-                <label for="nome">Nome completo</label>
+                <label for="nome">Razão Social</label>
                 <input type="text" id="nome" name="nome">
-                <br>
-                <label for="idade">Idade</label>
-                <input type="number" id="idade" name="idade">
-                <br>
-                <label for="data_nascimento">Data nascimento</label>
-                <input type="date" id="data_nascimento" name="data_nascimento">
-                <br>
-                <label for="cidade_nascimento">Cidade de nascimento</label>
+                <label for="nome">Nome Fantasia</label>
+                <input type="text" id="nome" name="nome">
+                <label for="idade">CNPJ</label>
+                <input type="text" id="idade" name="idade">
+                <label for="cidade_nascimento">Endreço: Rua</label>
                 <input type="text" id="cidade_nascimento" name="cidade_nascimento">
-                <br>
-                <label for="estado">Estado Nascimento</label>
+                <label for="cpf">Endereço: Numero</label>
+                <input type="number" id="cpf" name="cpf">
+                <label for="cidade_nascimento">Endreço: Cidade</label>
+                <input type="text" id="cidade_nascimento" name="cidade_nascimento">
+                <label for="estado">Endereço: Estado</label>
                 <select name="estado" id="estado">
                     <option value="SP">SP</option>
                     <option value="RJ">RJ</option>
                 </select>
-                <br>
-                <label for="cpf">CPF</label>
-                <input type="number" id="cpf" name="cpf">
-                <br>
-                <p>Estado civil: 
-                    <input type="radio" name="estadocivil" id="casado">
-                    <label for="casado">casado</label>
-                    <input type="radio" name="estadocivil" id="solteiro">
-                    <label for="solteiro">solteiro</label> 
-                </p>
-                <br>
-                <label for="filhos">Tem filhos</label>
-                <select name="filhos" id="filhos">
-                    <option value=""></option>
-                    <option value="Sim">Sim</option>
-                    <option value="Nao">Nao</option>                
-                </select>
-                <br>
-                <label for="quantos">Quantos tinhos</label>
-                <input type="number" id="quantos" name="quantos">
-                <br>
                 <label for="contato">Telefone</label>
                 <input type="tel" id="contato" name="contato">
                 <br>
@@ -142,55 +105,30 @@
             
         </div>
 
-         <div class="divformulario">
-             <form action=""> <h1>Cadastro do cabeleleiro</h1>
+            <form class=" card col-4 p-1 a" action="">
+                <p class="text-center titulo fonte2">CABELEIREIRO AMIGO</p>
                 <br>
-                <label for="nome">Nome completo</label>
+                <label for="nome">Salao/Cabeleireiro</label>
                 <input type="text" id="nome" name="nome">
-                <br>
-                <label for="idade">Idade</label>
-                <input type="number" id="idade" name="idade">
-                <br>
-                <label for="data_nascimento">Data nascimento</label>
-                <input type="date" id="data_nascimento" name="data_nascimento">
-                <br>
-                <label for="cidade_nascimento">Cidade de nascimento</label>
+                <label for="cidade_nascimento">Endreço: Rua</label>
                 <input type="text" id="cidade_nascimento" name="cidade_nascimento">
-                <br>
-                <label for="estado">Estado Nascimento</label>
+                <label for="cpf">Endereço: Numero</label>
+                <input type="number" id="cpf" name="cpf">
+                <label for="cidade_nascimento">Endreço: Cidade</label>
+                <input type="text" id="cidade_nascimento" name="cidade_nascimento">
+                <label for="estado">Endereço: Estado</label>
                 <select name="estado" id="estado">
                     <option value="SP">SP</option>
                     <option value="RJ">RJ</option>
                 </select>
-                <br>
-                <label for="cpf">CPF</label>
-                <input type="number" id="cpf" name="cpf">
-                <br>
-                <p>Estado civil: 
-                    <input type="radio" name="estadocivil" id="casado">
-                    <label for="casado">casado</label>
-                    <input type="radio" name="estadocivil" id="solteiro">
-                    <label for="solteiro">solteiro</label> 
-                </p>
-                <br>
-                <label for="filhos">Tem filhos</label>
-                <select name="filhos" id="filhos">
-                    <option value=""></option>
-                    <option value="Sim">Sim</option>
-                    <option value="Nao">Nao</option>                
-                </select>
-                <br>
-                <label for="quantos">Quantos filho</label>
-                <input type="number" id="quantos" name="quantos">
-                <br>
                 <label for="contato">Telefone</label>
                 <input type="tel" id="contato" name="contato">
+                <br>
                 <button type="submit">Enviar</button>
 
             </form>
             
-        </div>
-
+        
     </main>
     
 
