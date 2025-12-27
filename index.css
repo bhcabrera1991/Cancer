@@ -1,105 +1,50 @@
-*{
-    margin: 0;
-    padding: 0;
-}
-
-header{
-    display: flex;
-    
-}
-
-.a{
-    text-decoration: none;
-    color: black;
-    
-}
-
-.a1{
-    text-decoration: none;
-    color: white;
-
-    
-}
-
-
-.divcabecalho{
-    color:  blue;
-    
-    background-color: #f8dce3;
-    width: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
-        
-}
-
-ul{
+.borda{
     border: 1px solid red;
-    display: flex;
-    justify-content: space-evenly;
-    width: 50%;
-        
+}
+
+.fonte{
+
+
+  font-family: "Comic Relief", system-ui;
+  font-weight: 400;
+  font-style: normal;
+  text-transform: uppercase; /*deixa as letras maiscula*/
+  text-decoration: none;
+  text-align: center;
+  
+}
+
+.comic-relief-bold {
+  font-family: "Comic Relief", system-ui;
+  font-weight: 700;
+  font-style: normal;
 }
 
 
 
-.divcorpomae{
-    display: flex;
-    
-}
-
-.sejadoador{
-    color: #f8dce3;
-    text-align: center;
-    width: 100%;
-}
-
-.sejadoador:hover{
-    background-color: red;
-   
-    
-}
-
-.sejadoador .a1:hover{
-   font-variant: small-caps;
-   font-size: 20px;
-   background-color: yellow;    
-   color: red;
-}
-
-
-.sejaumparceiro{
-    color: red;
-    text-align: center;
-    width: 100%;
-}
-
-.sejaumparceiro :hover{
-    background-color: black;
-    color: white;
-}
-
-.sejaumparceiro:hover{
-    background-color: pink;
-    color: blue;
-}
-
-
-
-.pedido{
-    text-align: center;
-    justify-self: center;
-    align-content: center;   
-    
-}
-
-.pedido1{
-    box-shadow: 5px 5px 10px rgba(0,0,0,0.5);
+.fonte:hover{
+  background-color: #f8dce3;
 
 }
 
-.divcorpo{
-    border: 1px solid red;
-    height: 200px;
-    width: 100%;
+.fonte1{
+  font-family: "BBH Bogle", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  text-align: center;
 }
+
+.fonte2{
+  font-family: "Bungee Spice", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+  text-decoration: none;
+  text-align: center;
+}
+
+
+.centra{
+    justify-content: center;
+       
+}
+
