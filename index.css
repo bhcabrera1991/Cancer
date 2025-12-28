@@ -2,49 +2,68 @@
     border: 1px solid red;
 }
 
-.fonte{
-
-
-  font-family: "Comic Relief", system-ui;
-  font-weight: 400;
+.menufonte{
+  font-family: "Julius Sans One", sans-serif;
+  font-weight: 700;
   font-style: normal;
-  text-transform: uppercase; /*deixa as letras maiscula*/
+  text-transform: capitalize;
   text-decoration: none;
   text-align: center;
+  color: blueviolet;
+}
+
+.menufonte:hover {
+background-color: lightpink; 
+border-radius: 15px; 
+
+}
+
+.titulofonte1{
+  font-family: "Emilys Candy", serif;
+  font-weight: 400;
+  font-style: normal;
+  text-decoration: none;
+  text-transform: capitalize;
+  text-align: center;
+  color: blue;
+}
+
+.mouse:hover {
+  background-color: lightpink;
+}
+
+.conteudofonte2{
+  font-family: "Julius Sans One", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  text-decoration: none;
+  text-align: center;
+  color: black;
+}
+
+.menu{
+  justify-content: space-around;
   
 }
 
-.comic-relief-bold {
-  font-family: "Comic Relief", system-ui;
-  font-weight: 700;
-  font-style: normal;
+.centro{
+  justify-content: center;
+       
 }
 
-
-
-.fonte:hover{
-  background-color: #f8dce3;
-
+.altura{
+  height: 200px;
 }
 
-.fonte1{
-  font-family: "BBH Bogle", sans-serif;
+.efeito1:hover{
+  font-size: 30px;
+  font-family: "Emilys Candy", serif;
   font-weight: 400;
   font-style: normal;
-  text-align: center;
-}
-
-.fonte2{
-  font-family: "Bungee Spice", sans-serif;
-  font-weight: 500;
-  font-style: normal;
   text-decoration: none;
+  text-transform: capitalize;
   text-align: center;
-}
-
-
-.centra{
-    justify-content: center;
-       
+  color: red;
+  background-color: yellow;
 }
 
