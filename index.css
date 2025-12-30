@@ -1,5 +1,5 @@
 .borda{
-    border: 1px solid red;
+  border: 1px solid red;
 }
 
 .menufonte{
@@ -15,7 +15,6 @@
 .menufonte:hover {
 background-color: lightpink; 
 border-radius: 15px; 
-
 }
 
 .titulofonte1{
@@ -43,12 +42,6 @@ border-radius: 15px;
 
 .menu{
   justify-content: space-around;
-  
-}
-
-.centro{
-  justify-content: center;
-       
 }
 
 .altura{

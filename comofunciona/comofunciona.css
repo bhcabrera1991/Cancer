@@ -1,152 +1,5 @@
-*{
-    margin: 0;
-    padding: 0;
-}
-
-.xx{
-    align-items: center;
-    justify-content: center;
-        
-    
-
-}
-
-header{
-    display: flex;
-    
-}
-
-.a{
-    text-decoration: none;
-    color: black;
-    font-family: "Castoro Titling", serif;
-    font-style: normal;    
-}
-
-.a:hover{
-    background-color: yellow;
-}
-
-
-
-
-.divcabecalho{
-    color:  blue;
-    
-    background-color: #f8dce3;
-    width: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
-        
-}
-
-ul{
-    border: 1px solid red;
-    display: flex;
-    justify-content: space-evenly;
-    width: 50%;
-        
-}
-
-.divcorpomae{
-    display: flex;
-}
-
-.sejadoador{
-    color: red;
-    text-align: center;
-    width: 100%;
-}
-
-.sejaumparceiro{
-    color: red;
-    text-align: center;
-    width: 100%;
-}
-
-.pedido{
-    color: red;
-    text-align: center;
-    width: 100%;
-}
-
-.divcorpo{
-    border: 1px solid black;
-    color: black;
-    font-family: "League Gothic", sans-serif;
-    text-align: center;
-    border-radius: 20px;
-}
-
-.texto1:hover{
-    background-color:blue;
-    color: white;
-}
-
-.divcorpo2{
-    border: 1px solid red;
-    color: black;
-    font-family: "League Gothic", sans-serif;
-    text-align: center;
-    background-color: #f5ed;
-    border-radius: 15pc;
-}
-
-.p_texto{
-    font-family: "Metamorphous", serif;
-    font-style: normal;
-    text-align: justify;
-    text-decoration: none;
-    margin: 5px;
-}
-
-.p_texto2{
-    text-decoration: none;
-    font-style: normal;
-    color: orange;
-    background-color: black;
-  }
-
-.texto2:hover{
-    background-color:blue;
-    color: white;
-
-   
-
-}
-
-.texto3:hover{
-    background-color:blue;
-    color: white;
-    
-}
-
-.texto4:hover{
-    background-color:blue;
-    color: white;
-   
-      
-}
-
-.texto5:hover{
-    background-color:blue;
-    color: white;
-}
-
-
-.corpo{
-    background-color: #ffffff;
-}
-
-
-
-
-
-
-
 .borda{
-    border: 1px solid red;
+  border: 1px solid red;
 }
 
 .menufonte{
@@ -162,7 +15,6 @@ ul{
 .menufonte:hover {
 background-color: lightpink; 
 border-radius: 15px; 
-
 }
 
 .titulofonte1{
@@ -173,10 +25,6 @@ border-radius: 15px;
   text-transform: capitalize;
   text-align: center;
   color: blue;
-}
-
-.mouse:hover {
-  background-color: lightpink;
 }
 
 .conteudofonte2{
@@ -190,27 +38,16 @@ border-radius: 15px;
 
 .menu{
   justify-content: space-around;
-  
 }
 
 .centro{
   justify-content: center;
-       
 }
 
 .altura{
   height: 200px;
 }
 
-.efeito1:hover{
-  font-size: 30px;
-  font-family: "Emilys Candy", serif;
-  font-weight: 400;
-  font-style: normal;
-  text-decoration: none;
-  text-transform: capitalize;
-  text-align: center;
-  color: red;
-  background-color: yellow;
+.centro1{
+  align-items: center;
 }
-

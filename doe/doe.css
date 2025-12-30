@@ -1,34 +1,58 @@
-.fonte1{
- font-family: "Metamorphous", serif;
-  font-weight: 700;
-  font-style: normal;
-  color: pink;
-  background-color: blue;
-  border-radius: 15px;
+
+.ajuste{
+  justify-content: center;
 }
 
-.fonte2{
-  font-family: "Winky Sans", sans-serif;
-  font-optical-sizing: auto;
-  font-weight: 900;
+.borda{
+  border: 1px solid red;
+}
+
+.menufonte{
+  font-family: "Julius Sans One", sans-serif;
+  font-weight: 700;
   font-style: normal;
+  text-transform: capitalize;
+  text-decoration: none;
+  text-align: center;
+  color: blueviolet;
+}
+
+.menufonte:hover {
+background-color: lightpink; 
+border-radius: 15px; 
+}
+
+.titulofonte1{
+  font-family: "Emilys Candy", serif;
+  font-weight: 400;
+  font-style: normal;
+  text-decoration: none;
+  text-transform: capitalize;
+  text-align: center;
   color: blue;
 }
 
-.ajuste{
-    justify-content: center;
-}
-
-.a{
+.conteudofonte2{
+  font-family: "Julius Sans One", sans-serif;
+  font-weight: 400;
+  font-style: normal;
   text-decoration: none;
+  text-align: center;
   color: black;
-  font-family: "Metamorphous", serif;
-  font-weight: 700;
-  font-style: normal;  
 }
 
-.a:hover{
-  background-color: chartreuse;
-  
+.menu{
+  justify-content: space-around;
 }
 
+.centro{
+  justify-content: center;
+}
+
+.altura{
+  height: 200px;
+}
+
+.centro1{
+  align-items: center;
+}
