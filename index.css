@@ -31,9 +31,14 @@ border-radius: 15px;
   background-color: lightpink;
 }
 
+.mouse1:hover {
+  background-color: lightpink;
+  font-size: 20px;
+}
+
 .conteudofonte2{
   font-family: "Julius Sans One", sans-serif;
-  font-weight: 400;
+  font-weight: 800;
   font-style: normal;
   text-decoration: none;
   text-align: center;
@@ -60,3 +65,20 @@ border-radius: 15px;
   background-color: yellow;
 }
 
+.destaque:hover{
+  color: honeydew;
+  font-size: 30px;
+  background-color: lightskyblue;
+}
+
+.destaque1:hover{
+  font-size: 30px;
+  background-color: lightgreen;
+  color: honeydew;
+}
+
+.destaque3:hover{
+  font-size: 30px;
+  background-color: lightcyan;
+  color: purple;
+}
