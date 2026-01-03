@@ -77,13 +77,13 @@ border-radius: 15px;
   height: 200px;
 }
 
-.efeito1:hover{
-  font-size: 30px;
+.efeito1{
+  font-size: 20px;
   font-family: "Emilys Candy", serif;
   font-weight: 400;
   font-style: normal;
   text-decoration: none;
-  text-transform: capitalize;
+  text-transform: uppercase;
   text-align: center;
   color: red;
   background-color: yellow;
